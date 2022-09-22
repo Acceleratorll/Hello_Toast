@@ -25,6 +25,7 @@
         android:layout_marginTop="25dp"
         android:onClick="showZero"
         android:text="ZERO"
+        android:backgroundTint="@color/purple"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="@+id/button_toast"
         app:layout_constraintTop_toBottomOf="@+id/button_toast" />
@@ -61,6 +62,7 @@
         android:layout_marginTop="25dp"
         android:onClick="countUp"
         android:text="Count"
+        android:backgroundTint="@color/green"
         android:textColor="@android:color/white"
         app:layout_constraintStart_toStartOf="@+id/button_zero"
         app:layout_constraintTop_toBottomOf="@+id/button_zero" />
